@@ -18,9 +18,19 @@ html, body {
     height: 70%;
 }
 
+#guitar-case-top {
+    position:absolute;
+    left: 29.55%;
+    top: 20%;
+    height: 300px;
+    width: 100px;
+    background-color: #000000;
+    clip-path: inset(5% 20% 15% 10%);
+}
+
 #guitar-case-middle {
     position: absolute;
-    left:25%;
+    left: 24.45%;
     top: 45%;
     height:250px;
     width:220px;
@@ -30,12 +40,26 @@ html, body {
 
 #guitar-case-bottom {
     position: absolute;
-    left: 26%;
+    left: 25.5%;
     top:60%;
     height: 200px;
     width: 190px;
     background-color: #000000;
+    color:#FAF0E6;
+    text-align: center;
     clip-path: inset(10% round 20px);
+}
+
+#guitar-case-text {
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+#guitar-case-subtext {
+    /* padding-top: 100px;
+    padding-left: 20px; */
+    padding-bottom:50px;
+    font-size: xx-small;
 }
 
 #floor {
